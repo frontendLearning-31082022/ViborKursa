@@ -4,6 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         String inputed=enterText();
+        String[] array=inputed.split("\n");
+
+        String result="";
+        for (int i = array.length - 1; i >= 0; i--) {
+            if (array[i].length()<4)result=result+  array[i]+"\n";
+        }
+
     }
 
    static String enterText(){
