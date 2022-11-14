@@ -11,6 +11,10 @@ public class Main {
             if (array[i].length()<4)result=result+  array[i]+"\n";
         }
 
+        String[] resultArray=result.split("\n");
+
+        System.out.println("Массив результирующий\n "+result);
+
     }
 
    static String enterText(){
